@@ -6,8 +6,8 @@ import { MockV3Aggregator} from "../test/mocks/MockV3Aggregator.sol";
 
 contract HelperConfig is Script {
 
-    uint8 public constant DECIMALS = 18;
-    int256 public constant INITIAL_VALUE = 1000;
+    uint8 public constant DECIMALS = 8;
+    int256 public constant INITIAL_VALUE = 2000e8;
 
     struct Config {
         address priceFeedAddress;
